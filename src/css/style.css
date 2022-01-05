@@ -1,0 +1,9 @@
+
+*{
+    font-family: 'MuseoSansCyrl-900Italic';
+}
+.header{
+    width: 100%;
+    height: 650px;
+    background: url("../img/bg/bg.png") center center/cover no-repeat;
+}
