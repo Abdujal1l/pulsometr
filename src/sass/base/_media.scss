@@ -39,6 +39,27 @@
         height: 42px;
         font-size: 13px;
     }
+    .reviews{
+        &-item{
+            margin-bottom: 50px;
+            &__img{
+                width: 150px;
+                height: 150px;
+                img{
+                    height: 120px;
+                    width: 120px;
+                }
+
+                
+            }
+            &__info{
+                width: 400px;
+                br{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 767px)
 {
@@ -125,5 +146,38 @@
 .button_submit{
     height: 42px;
     font-size: 13px;
+ }
+.carusel{
+    &__inner{
+       img{
+           width: 300px;
+       }
+    }
+  }
+.slick-dots{
+    max-width: 300px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ffffff;
+   }  
+.catalog{
+    &__tabs{
+       padding-left: 0px;
+        flex-direction: column;
+    }
+    &__tab{
+        margin-bottom: 5px;
+    }
+        }
+.reviews{
+   &-item{
+       display: flex;
+       flex-direction: column;
+       height: 30% ;
+        &__descr{
+            width: 70% ;
+        }   
+   }
 }
 }
